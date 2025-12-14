@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, String, Float, Boolean, ForeignKey
 from sqlalchemy.orm import relationship
-from core.db import Base # Импортируем наш базовый класс
+from core.db import Base
 
 
 class User(Base):
